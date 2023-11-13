@@ -90,7 +90,7 @@ public class HAMURABI {
 			plague = true;
 		plague = false;
 	}
-	
+	//*********************************************
 	private static String report() {
 		String answer = "\nHAMURABI:  I BEG TO REPORT TO YOU,\n" +
 				"IN YEAR " + year + ", " + deaths + " PEOPLE STARVED, " + immigrants + " CAME TO THE CITY.\n";
@@ -107,7 +107,7 @@ public class HAMURABI {
 		return answer;
 	}
 
-	
+	/////*****************************************************
 	private static void epicFail(int x) {
 		String reason = "";
 		switch (x) {
@@ -119,7 +119,7 @@ public class HAMURABI {
 		System.out.println(reason);
 		System.exit(0);
 	}
-	
+	////*****************************************************************
 	private void finished() {
 		String answer = "IN YOUR 10-YEAR TERM OF OFFICE, " + percentDied + " PERCENT OF THE\n" +
 			"POPULATION STARVED PER YEAR ON AVERAGE, I.E., A TOTAL OF\n" +
